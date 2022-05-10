@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    background: rgb(252, 162, 162);
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: 600px;
+    margin: 100px auto;
+    color: white;
+    padding: 20px;
+}
+
+.header {
+    background: rgb(137, 222, 255);
+    text-align: center;
+    padding: 10px;    
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+aside {
+    background: rgb(47, 201, 193);
+    height: 300px;
+    width: 25%;
+    padding: 10px;
+}
+
+.article {
+    background: rgb(255, 109, 122);
+    width: 65%;
+}
+
+article {
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+article p {
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+    align-items: flex-end;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.image {
+    display: flex;
+    padding-bottom: 10px;
+    width: 115px;
+    height: 110px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(137, 222, 255);;
+    height: 50px;
+}
