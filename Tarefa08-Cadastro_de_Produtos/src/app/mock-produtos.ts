@@ -1,0 +1,73 @@
+import { Produto } from './produto';
+
+export const PRODUTOS: Produto[] = [
+  {
+    id: 1,
+    name: 'Cerveja Amanteigada',
+    marca: 'Roose Beer',
+    preco: 20,
+    qtdEstoque: 450,
+  },
+  {
+    id: 2,
+    name: 'Cerveja Artesanal',
+    marca: 'Roose Beer',
+    preco: 35,
+    qtdEstoque: 200,
+  },
+  { id: 3, 
+    name: 'Cerveja',
+    marca: 'Heineken',
+    preco: 8, 
+    qtdEstoque: 3200, 
+  },
+  {
+    id: 4,
+    name: 'Suco de Milho',
+    marca: 'SubZero',
+    preco: 2.5,
+    qtdEstoque: 100,
+  },
+  {
+    id: 5,
+    name: 'Cerveja de Laranja',
+    marca: 'Baden Baden',
+    preco: 30,
+    qtdEstoque: 250,
+  },
+  {
+    id: 6,
+    name: 'Cerveja de Café',
+    marca: 'Baden Baden',
+    preco: 30,
+    qtdEstoque: 20,
+  },
+  {
+    id: 7,
+    name: 'Cerveja sem Álcool',
+    marca: 'SubZero',
+    preco: 2,
+    qtdEstoque: 42,
+  },
+  {
+    id: 8,
+    name: 'Cerveja Duplo Malte',
+    marca: 'Brahma',
+    preco: 5,
+    qtdEstoque: 142,
+  },
+  {
+    id: 9,
+    name: 'Cerveja Pilsen',
+    marca: 'Skol',
+    preco: 3,
+    qtdEstoque: 840,
+  },
+  {
+    id: 10,
+    name: 'Cerveja do Mussum',
+    marca: 'Cacildis',
+    preco: 7,
+    qtdEstoque: 81,
+  },
+];
